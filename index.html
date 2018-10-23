@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -105,34 +105,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 </style>
 
@@ -225,7 +225,27 @@ $(document).ready(function () {
 <h2>Adding a link</h2>
 <p>I like <a href="https://www.google.com/">to look for things on the internet</a></p>
 <p>I can link directly to my <a href="about.html">about page</a></p>
-<p><img src="images/corgi.png" style="width:30%">AND ME: <img src="images/me.JPG" style="width:70%"></p>
+<p>My <a href="code.html">code link</a></p>
+<p><img src="images/corgi.png" style="width:30%"> AND ME: <img src="images/me.JPG" style="width:70%"></p>
+<pre class="r"><code>library(tidyverse)
+tibble(
+  x=5:15,
+  y=6:16
+)</code></pre>
+<pre><code>## # A tibble: 11 x 2
+##        x     y
+##    &lt;int&gt; &lt;int&gt;
+##  1     5     6
+##  2     6     7
+##  3     7     8
+##  4     8     9
+##  5     9    10
+##  6    10    11
+##  7    11    12
+##  8    12    13
+##  9    13    14
+## 10    14    15
+## 11    15    16</code></pre>
 </div>
 
 

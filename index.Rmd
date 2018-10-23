@@ -1,5 +1,9 @@
 ---
 title: "Holy cow!"
+output:
+  html_document:
+    toc: true
+    toc_float:true
 ---
 
 ### I have a webpage!
@@ -16,6 +20,17 @@ I like [to look for things on the internet](https://www.google.com/)
 
 I can link directly to my [about page](about.html)
 
+My [code link](code.html)
+
 <img src="images/corgi.png" style="width:30%">
 AND ME:
 <img src="images/me.JPG" style="width:70%">
+
+```{r, warning=TRUE,message=F}
+library(tidyverse)
+tibble(
+  x=5:15,
+  y=6:16
+)
+```
+
