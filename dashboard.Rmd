@@ -1,0 +1,50 @@
+---
+title: "Dashboard of "
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+data(ny_noaa)
+df <- ny_noaa[sample(nrow(ny_noaa),100000),]%>% 
+  separate(date,into = c("year","month","day")) %>% 
+  janitor::clean_names() %>% 
+  mutate(tmin=as.numeric(tmin)/10,
+         tmax=as.numeric(tmax)/10) 
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### tmax vs tmin for the full dataset
+
+```{r}
+plot1 <- ggplot(data=df, aes(x=tmax,y=tmin))+
+  geom_hex()+
+  ggtitle('tmax vs tmin for a sample size of 100,000')+
+  theme(legend.position = "bottom")
+ggplotly(plot1)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
