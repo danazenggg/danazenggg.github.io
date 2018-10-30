@@ -6,9 +6,9 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<dz2399@cumc.columbia.edu>
+      href: mailto:dz2399@columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/danazenggg/
 output:
-  html_document:
-    theme: flatly
+  html_document: 
+    theme: cosmo
