@@ -48,7 +48,8 @@ _Traumatic Brian Injury Intern_						May 2017- Jul 2017
 *	Reviewed more than 1000 participant charts and medical records using the EMR system for evidence of traumatic brain injuries.  
 *	Compiled reports and accurately entered data into Framingham Heart Study database.  
 
-__Aging, Cultural and Cognition Laboratory__, Brandeis University		Waltham, MA      _Research Assistant_ 								Jan 2017- May 2018  
+__Aging, Cultural and Cognition Laboratory__, Brandeis University		Waltham, MA  
+_Research Assistant_ 								Jan 2017- May 2018  
 
 * Conducted psychology experiments and communicated with participants.  
 * Transcribed audio files and analyzed data.
@@ -65,7 +66,10 @@ _Summer Intern_								 						Jun- Jul 2015
 *	Accompanied Vice President of EDF as a translator to conferences.  
 *	Coodinated office administration duties such as making phone calls and organizing files.  
 
-SKILLS AND CERTIFICATIONS 
-Computer Skills: Strong knowledge of statistical applications, including SAS, R, SPSS, MS Word, Excel and PowerPoint. Knowledge of ArcGIS, Sequel Pro, and Github
-Language: English (fluent), Mandarin (fluent), French (intermediate), Latin (intermediate)
-Certification: CPR (Feb 2015), HIPAA (patient privacy), CITI (human subjects research)
+ &nbsp;
+  &nbsp;
+  
+#### SKILLS AND CERTIFICATIONS 
+__Computer Skills__: Strong knowledge of statistical applications, including SAS, R, SPSS, MS Word, Excel and PowerPoint. Knowledge of ArcGIS, Sequel Pro, and Github  
+__Language__: English (fluent), Mandarin (fluent), French (intermediate), Latin (intermediate)  
+__Certification__: CPR (Feb 2015), HIPAA (patient privacy), CITI (human subjects research)
