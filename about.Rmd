@@ -4,6 +4,7 @@ title: "About"
 
 ### About this site
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+This personal website is produced by Rstudio and hosted by Github.  
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content
+The source code can be found in the repo named 'danazenggg.github.io', for the link to the github page, please click on the upper right Github icon.
+

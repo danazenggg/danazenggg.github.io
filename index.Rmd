@@ -1,34 +1,14 @@
 ---
-title: "Dana Zeng"
+title: "Deyuan (Dana) Zeng"
 output:
   html_document 
 ---
 
-### I have a webpage!
-
-And I can put all kinds of stuff on it!
-
-I can add additional text.
-
-I *could* write some code but...not going to.
-
-## Adding a link
-
-I like [to look for things on the internet](https://www.google.com/)
-
-I can link directly to my [about page](about.html)
-
-My [code link](code.html)
-
-<img src="images/corgi.png" style="width:30%">
-AND ME:
+ &nbsp;
+  &nbsp;
+  
 <img src="images/me.JPG" style="width:70%">
 
-```{r, warning=TRUE,message=F}
-library(tidyverse)
-tibble(
-  x=5:15,
-  y=6:16
-)
-```
+Dana Zeng is a first-year M.S. Candidate in Biostatistics at Columbia University Mailman School of Public Health. She graduated from Brandeis University in May 2018, with a major in public health and psychology. At Columbia Univeristy, her methodological interest lies in longitudinal data analysis, survival analysis and deep learning. She is also interested in the statistical application in chronic disease, health data management and precision medicine.
 
+For a detailed experience and resume, click [here](resume.Rmd)
