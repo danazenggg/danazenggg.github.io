@@ -1,8 +1,7 @@
 ---
-title: "Holy cow!"
+title: "Dana Zeng"
 output:
-  html_document:
-    toc: true
+  html_document 
 ---
 
 ### I have a webpage!

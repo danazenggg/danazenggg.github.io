@@ -1,8 +1,0 @@
-## Code
-```{r, warning=TRUE,message=F}
-library(tidyverse)
-tibble(
-  x=5:15,
-  y=6:16
-)
-```

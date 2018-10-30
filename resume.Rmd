@@ -1,0 +1,71 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+ &nbsp;
+  &nbsp;
+  
+  
+## DEYUAN (DANA) ZENG
+#### 501W 113TH ST, New York, NY 10025| 781-290-9738 | dz2399@columbia.edu
+
+ &nbsp;
+  &nbsp;
+  
+#### Education
+__Columbia University__  _Mailman School of Public Health New York, NY_  
+__Master of Science__ Candidate in Biostatistics, expected May 2020  
+Relevant Coursework: Biostatistical Methods, Probability, Principles of Epidemiology, Data Science, Statistical Inference, Statistical Computing with SAS
+
+__Brandeis University__  _Waltham, MA_  
+__Bachelor of Science__ in Health, Science, Society and Policy & Psychology, received May 2018
+Cum Laude, Dean’s List
+
+ &nbsp;
+  &nbsp;
+  
+#### EXPERIENCE
+__First Street Foundation__ 							Brooklyn, NY  
+_Data Analysis Intern_						Jun-Jul 2018  
+
+*	Collaborated with data scientists to improve the Property Value Model that more precisely predicts property value losses by flooding on the East Coast to raise awareness of sea level rise.  
+*	Gained experience with big data of more than 8 million parcel recordings, and evaluated the predictive models on the Property Value Model using machine learning in R.  
+*	Presented the results in weekly meetings with data visualization tools including ArcGIS and R markdown, for a non-profit policy organization.  
+
+__Harvard Medical School/ McLean Hospital__					Belmont, MA  
+_Research Assistant_								Sep.2017- May 2018  
+
+*	Conducted complex data analysis using R and leveraged skills in health data management, analysis, and visualization for an online psychiatric testing website that contributes to the Precision Medicine Initiative.  
+*	Assisted the PI with developing a new testing platform that expands the ethnicity to the Asian population, and examined the reliability and the validity of the new platform.  
+
+__Framingham Heart Study__							Framingham, MA  	 
+_Traumatic Brian Injury Intern_						May 2017- Jul 2017  
+
+*	Reviewed more than 1000 participant charts and medical records using the EMR system for evidence of traumatic brain injuries.  
+*	Compiled reports and accurately entered data into Framingham Heart Study database.  
+
+__Aging, Cultural and Cognition Laboratory__, Brandeis University		Waltham, MA      _Research Assistant_ 								Jan 2017- May 2018  
+
+* Conducted psychology experiments and communicated with participants.  
+* Transcribed audio files and analyzed data.
+
+__China National Center for Food Safety Risk Assessment__			Beijing, China  
+_Health Education Intern_							Jun- Jul 2016  
+
+* Organized activities to spread food safety facts to the public.  
+* Translated various documents and promoted the communication between Chinese and American colleges.  
+
+__Environmental Defense Fund__											Beijing, China  
+_Summer Intern_								 						Jun- Jul 2015  
+
+*	Accompanied Vice President of EDF as a translator to conferences.  
+*	Coodinated office administration duties such as making phone calls and organizing files.  
+
+SKILLS AND CERTIFICATIONS 
+Computer Skills: Strong knowledge of statistical applications, including SAS, R, SPSS, MS Word, Excel and PowerPoint. Knowledge of ArcGIS, Sequel Pro, and Github
+Language: English (fluent), Mandarin (fluent), French (intermediate), Latin (intermediate)
+Certification: CPR (Feb 2015), HIPAA (patient privacy), CITI (human subjects research)
