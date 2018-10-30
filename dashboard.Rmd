@@ -12,7 +12,7 @@ library(p8105.datasets)
 library(tidyverse)
 library(plotly)
 data(ny_noaa)
-df <- ny_noaa[sample(nrow(ny_noaa),100000),]%>% 
+df <- ny_noaa[sample(nrow(ny_noaa),10000),]%>% 
   separate(date,into = c("year","month","day")) %>% 
   janitor::clean_names() %>% 
   mutate(tmin=as.numeric(tmin)/10,
