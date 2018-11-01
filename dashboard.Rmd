@@ -23,9 +23,25 @@ df <- ny_noaa[sample(nrow(ny_noaa),10000),]%>%
 Column {data-width=650}
 -----------------------------------------------------------------------
 
+### tmax vs tmin for a sample size of 100,000
+
+```{r}
+plot1 <- ggplot(data=df, aes(x=tmax,y=tmin))+
+  geom_hex()+
+  ggtitle('tmax vs tmin for a sample size of 100,000')+
+  theme(legend.position = "bottom")
+ggplotly(plot1)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+
 ### The mean max temperature in January and July in each station across years
 
 ```{r}
+
 label <- c('01'='January', '07'='July')
 plot2 <- df %>% 
   filter(month=='01'|month=='07') %>%
@@ -38,20 +54,6 @@ plot2 <- df %>%
   ggtitle('The mean max temperature in January and July in each station across years')+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ggplotly(plot2)
-
-```
-
-Column {data-width=350}
------------------------------------------------------------------------
-
-### tmax vs tmin for a sample size of 100,000
-
-```{r}
-plot1 <- ggplot(data=df, aes(x=tmax,y=tmin))+
-  geom_hex()+
-  ggtitle('tmax vs tmin for a sample size of 100,000')+
-  theme(legend.position = "bottom")
-ggplotly(plot1)
 ```
 
 ### The distribution of snowfall values between 0 and 100 by year
