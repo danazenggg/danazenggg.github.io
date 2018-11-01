@@ -28,7 +28,6 @@ Column {data-width=650}
 ```{r}
 plot1 <- ggplot(data=df, aes(x=tmax,y=tmin))+
   geom_hex()+
-  ggtitle('tmax vs tmin for a sample size of 100,000')+
   theme(legend.position = "bottom")
 ggplotly(plot1)
 
@@ -38,20 +37,17 @@ Column {data-width=350}
 -----------------------------------------------------------------------
 
 
-### The mean max temperature in January and July in each station across years
+### The mean max temperature in January in each station across years
 
 ```{r}
 
-label <- c('01'='January', '07'='July')
 plot2 <- df %>% 
-  filter(month=='01'|month=='07') %>%
+  filter(month=='01') %>%
   filter(!is.na(tmax)) %>% 
   group_by(month,year,id) %>% 
   summarise(month_mean=mean(tmax)) %>%
   ggplot(aes(x=factor(year),y=month_mean))+
     geom_boxplot()+
-    facet_grid(.~month, labeller=as_labeller(label))+
-  ggtitle('The mean max temperature in January and July in each station across years')+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ggplotly(plot2)
 ```
@@ -63,7 +59,6 @@ plot3 <-df %>%
   filter(snow>0,snow<100) %>%
   ggplot(aes(x=snow, color=year))+
   geom_density( alpha=0.3)+
-  ggtitle('The distribution of snowfall values between 0 and 100 by year')+
   theme(legend.position = "bottom")
 
 ggplotly(plot3)
